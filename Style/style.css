@@ -365,10 +365,125 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
     }
 }
 
-@media only screen and (max-width: 576px){
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
     header .navbar-nav{
         background-color: #fff;
         color: black !important;
     }
+
+    .navbar-collapse .navbar-nav .nav-item {
+        transition: all .5s;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item:hover{
+        background-color: #dbdbdb;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .nav-link{
+        color: #000;
+    }
+
+    .carousel-item{
+        height: 65vh;
+    }
+
+    .carousel-caption h3{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .carousel-caption p{
+        font-size: 15px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon{
+        display: none;
+    }
+
+    .carousel-item .carousel-caption .image-thumbnail {
+        width: 90px;
+    }
 }
 
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .navbar-nav{
+        background-color: #fff;
+        color: black !important;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item {
+        transition: all .5s;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item:hover{
+        background-color: #dbdbdb;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .nav-link{
+        color: #000;
+    }
+
+    .carousel-item{
+        height: 60vh;
+    }
+
+    .carousel-caption h3{
+        font-size: 35px;
+    }
+
+    .carousel-caption p{
+        font-size: 20px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header .navbar-nav{
+        background-color: #fff;
+        color: black !important;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item {
+        transition: all .5s;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item:hover{
+        background-color: #dbdbdb;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .nav-link{
+        color: #000;
+    }
+
+    .carousel-item{
+        height: 70vh;
+    }
+
+    .carousel-caption h3{
+        font-size: 40px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon{
+        display: none;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-item{
+        height: 75vh;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* .carousel-item{
+        height: 90vh;
+    } */
+}
