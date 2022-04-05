@@ -474,16 +474,3 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
     }
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .carousel-item{
-        height: 75vh;
-    }
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    /* .carousel-item{
-        height: 90vh;
-    } */
-}
