@@ -7,10 +7,15 @@ header {
 
 header .navbar-toggler{
     background-color: #35a22c;
+    position: relative;
 }
 
 header .navbar-collapse{
-    /* background-color: #fff; */
+    /* position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;
+    z-index: 9999; */
 }
 
 header .navbar-collapse .navbar-nav .nav-item .nav-link{
@@ -63,6 +68,10 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
 }
 
 /* carousel */
+.carousel{
+    position: relative;
+}
+
 .carousel-item {
     height: 100vh;
     background-position: center;
@@ -94,6 +103,11 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
 .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
+    z-index: 0;
+}
+
+.animate__animated{
+    /* animation-iteration-count: infinite; */
 }
 
 .carousel-caption h3{
@@ -119,6 +133,19 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
     border: none;
 }
 
+.carousel-control--prev{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+
+.carousel-control--next{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+}
 /* overlay */
 .overlay{
     position: absolute;
