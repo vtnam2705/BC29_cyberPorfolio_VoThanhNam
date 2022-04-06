@@ -359,14 +359,6 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
 
 
 /* Responsive */
-@media only screen and (min-width: 768px) {
-    header .navbar-collapse{
-        /* background-color: #fff; */
-    }
-}
-
-
-
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     header .navbar-nav{
@@ -474,3 +466,9 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
     }
 }
 
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .award__left h2{
+        font-size: 25px;
+    }
+}
