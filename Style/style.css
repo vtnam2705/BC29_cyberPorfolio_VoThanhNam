@@ -10,13 +10,13 @@ header .navbar-toggler{
     position: relative;
 }
 
-header .navbar-collapse{
-    /* position: absolute;
+/* header .navbar-collapse{
+    position: absolute;
     width: 100%;
     left: 0px;
     top: 100%;
-    z-index: 9999; */
-}
+    z-index: 9999;
+} */
 
 header .navbar-collapse .navbar-nav .nav-item .nav-link{
     padding: 10px 10px;
@@ -34,9 +34,9 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
     gap: 10px;
 }
 
-.navbar__link i{
-    /* font-size: 45px; */
-}
+/* .navbar__link i{
+    font-size: 45px;
+} */
 
 .navbar__link span {
     font-size: 30px;
@@ -106,9 +106,9 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
     z-index: 0;
 }
 
-.animate__animated{
-    /* animation-iteration-count: infinite; */
-}
+/* .animate__animated{
+    animation-iteration-count: infinite;
+} */
 
 .carousel-caption h3{
     font-size: 56px;
@@ -200,7 +200,7 @@ header .navbar-collapse .navbar-nav .nav-item .nav-link{
 #feature {
     background-image: url(../image/3.jpg);
     background-repeat: no-repeat;
-    background-position: canter;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0 120px;
